@@ -7,7 +7,7 @@ import (
 import "testing"
 
 func TestCallText(t *testing.T) {
-	text := "test"
+	text := "test2"
 	got := pkg.CallText(text)
 	want := fmt.Sprintf("Text is %s", text)
 	if got != want {
